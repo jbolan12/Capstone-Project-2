@@ -1,0 +1,58 @@
+.gradient-background {
+    background: linear-gradient(300deg,#17153B, #2E236C,#433D8B,#C8ACD6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .profile-img {
+    border-radius: 50%;
+    height: 225px;
+    width: 235px;
+  }
+
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow-x: ;
+    overflow-y: ;
+}
+
+.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  
+ .Skills{
+ display: flex
+ width: 1rem;
+ height: ;
+ }
+
+.Heading-1{
+
+  text-align: center;
+  align-items: center;
+
+}
